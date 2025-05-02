@@ -3,7 +3,6 @@ package me.garudagreen.demossl
 import okhttp3.CertificatePinner
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import java.security.cert.Certificate
 import android.util.Log
 
 object PinnedHttpClient {
