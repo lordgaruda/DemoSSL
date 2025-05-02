@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoSSL</string>
+    <string name="checking_ssl">Checking SSL...</string>
+</resources>
