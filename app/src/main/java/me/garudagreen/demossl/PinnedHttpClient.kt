@@ -8,10 +8,10 @@ import android.util.Log
 object PinnedHttpClient {
     fun makeRequest(): Boolean {
         return try {
-            val hostname = "api.yourdomain.com"
+            val hostname = "api.garudaext.tech"
 
             val certificatePinner = CertificatePinner.Builder()
-                .add(hostname, "sha256/<yourpublickey>") // Replace this
+                .add(hostname, "sha256/AzkiMBHRPRdKIdXZET9giP3SCFo2/BZPT+9xObAOzek=") // Replace this
                 .build()
 
             val client = OkHttpClient.Builder()
